@@ -1,0 +1,12 @@
+COMMANDS:
+
+1. ls : Shows the list of all files and folder present in the directory.
+2. pwd : Show the path of the working directory.
+3. cd : Change directory.
+4. mkdir : to Create new directory.
+5. touch : to create new File.
+6. cat : Shows content in file.
+7. nano : open a Text editor, where you can write anything.
+		ctrl + s = save.
+		ctrl + x = exit.
+8. notepad (filename) : Open notepad text editor.

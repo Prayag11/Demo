@@ -1,0 +1,43 @@
+COMMANDS:
+
+1. ls : Shows the list of all files and folder present in the directory.
+2. pwd : Show the path of the working directory.
+3. cd : Change directory.
+4. mkdir : to Create new directory.
+5. touch : to create new File.
+6. cat : Shows content in file.
+7. nano : open a Text editor, where you can write anything.
+		ctrl + s = save.
+		ctrl + x = exit.
+8. notepad (filename) : Open notepad text editor.
+9. cp : copy file or directory 
+		cp filename pathOfDirectory
+10. mv : move or rename the file or directory
+		mv OldFileName NewFileName
+11. grep : used to fetch the line where given word is present.
+		grep "word" fileName
+	
+	grep -i : case insensitive
+	grep -c : show no of word present
+	grep -l "hello" *
+	grep -o
+	grep -n
+	grep -v
+
+12. awk : same as the cat command use to fetch the data in tabular form
+		awk '{print}' fileName
+	awk '{print $1, $2}' fileName : $ sign refers to column name.
+	awk '{print NR}' fileName
+
+13.head : show the first 10 entry in table.
+	head -5 fileName
+
+14. tail : show the last entry in the table.
+
+15. find : use to find a perticular word 
+	find emp.txt | grep "rachu" emp.txt
+
+16. sort : arranging records ascending orders
+	sort -r : arrenging records in descening orders
+
+17. echo : to print the line or word. 
